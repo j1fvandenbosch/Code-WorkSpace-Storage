@@ -4,7 +4,7 @@ This repository is a workspace and storage are for various projects written in v
 
 Current languages include
 
--Bash Shell Scripts
+- Bash Shell Scripts
 - C, C#, C++
 - HTML Scripts (excluding full web sight's)
 - MySQL Scripts (excluding full databases)
