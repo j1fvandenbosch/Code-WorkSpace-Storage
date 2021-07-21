@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop View */
+main {
+	background-color: black;
+	background-image: url(../images/background.6.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 0.2em solid white;
+	border-left: 0.2em solid white;
+	border-right: 0.2em solid white;
+	height: 598px;
+}
+
+aside {
+	background-image: url(../images/animated.1.gif);
+	background-position: right;
+	background-size:contain;
+	font-size: 95%;
+	padding: 590px 0px 0px;
+}
+
+img.gallery1 {
+	float: left;
+	height: auto;
+	width: 20%;
+}
+
+img.gallery2 {
+	float: right;
+	height: auto;
+	width: 20%;
+}
+
+
+article.main-text {
+	background-color: dimgray;
+	border: outset black;
+	color: white;
+	float: left;
+	line-height: normal;
+	margin: 9em 2em;
+	width: 50%;
+}
+
+section.sub-text1 {
+	font-size: 1.2em;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.50);
+}
+
+section.sub-text2 {
+	font-size: 0.9em;	
+	padding-top: 1em;
+	text-align: center;
+}
+
+section.sub-text3 h3  {
+	font-size: 2em;
+	padding-top: 1em;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.90);
+}
+section.sub-text3 p  {
+	font-size: .8em;
+}
+
+section.sub-text4 h3 {
+	font-size: 1.5em;
+	padding-top: 1em;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.70);
+}
+section.sub-text4 p {
+	font-size: 0.8em;
+}
+
+section.sub-text5 {
+	font-size: 0.7em;
+	padding-top: 2em;
+}
+
+/* Moblie View */
+@media (max-width: 640px){
+.hidden-xsm {
+	display: none;
+}
+
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop View */
+header{
+	border-bottom: 0.1em solid white;
+	border-left: 0.1em solid white;
+	border-right: 0.1em solid white;
+}
+
+header.row {
+	background-image: url(../images/banner.1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header.row h2 {
+	color: white;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(1,255,255,0.40);
+}
+
+header.row p {
+	color: white;
+	font-size: 175%;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+	text-align: center;
+	text-shadow: 0px 3px 5px rgba(1,255,255,0.40);
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+	
+header.row h2 {
+}
+
+header.row p {
+	letter-spacing: 0.25em;
+}
+
+}
+
+/* Moblie View */
+@media (max-width: 640px){
+
+header.row h2 {
+	font-size: 125%;
+}
+
+header.row p {
+	font-size: 62.5%;
+	letter-spacing: 0.25em;
+}
+
+}

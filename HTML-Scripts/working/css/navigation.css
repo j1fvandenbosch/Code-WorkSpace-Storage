@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop View */
+nav {
+	border-bottom: 0.1em solid white;
+	border-left: 0.1em solid white;
+	border-right: 0.1em solid white;
+	border-top: 0.1em solid white;
+}
+
+.row .navbar-default   {
+	background-color: #069;
+	background-image: linear-gradient(180deg,rgba(0,102,153,1.00) 0%,rgba(0,136,170,1.00) 100%);
+}
+.row .nav.navbar-nav>li>a:link, .row .nav.navbar-nav>li>a:visited {
+	border-bottom: solid 1px #037;
+	border-left: solid 1px #0AE;
+	border-right: solid 1px #037;
+	border-top: solid 1px #0AE;
+	color: #FFC;
+}
+.row .nav.navbar-nav> li>a:hover {
+	background-image: linear-gradient(0deg,rgba(0,102,153,1.00) 0%,rgba(0,136,170,1.00) 100%);
+	color: #FFF;
+}
+.row .nav.navbar-nav {
+	margin: 0px auto;
+	width: 393px;
+	float: none;
+}
+.row .navbar {
+	margin: 0px;
+	padding: 0px;
+}

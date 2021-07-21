@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop View */
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+}
